@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.fundo{
+  background-image: linear-gradient(90deg, green,white, red);
+  height: 100vh;
+  text-align: center;
+}
+.calculadora{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(177, 182, 184);
+  padding: 15px;
+  border-radius: 30px;
+}
+.botao{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  background-color: white;
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 15px;
+}
+.botao:hover{
+  background-color: rgb(51, 169, 216);
+}
+#resultado{
+  background-color: white;
+  width: 207px;
+  height: 30px;
+  font-size: 25px;
+  color: black;
+  text-align: right;
+  padding: 5px;
+  font-family: 'Odibee Sans';
+  border-radius: 10px;
+}
+h1{
+  font-family:Brush Script MT, cursive;
+  font-size: 40px;
+}
+
